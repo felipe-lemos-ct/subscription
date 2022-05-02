@@ -1,0 +1,13 @@
+{
+  "destination": {
+    "type": "GoogleCloudPubSub",
+    "projectId": "ct-sales-207211",
+    "topic": "benoit-demo-2022-05"
+  },
+  "messages": [
+    {
+      "resourceTypeId": "order",
+      "types": ["OrderCreated"]
+    }
+  ]
+}

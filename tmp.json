@@ -1,0 +1,306 @@
+{
+  "notificationType": "Message",
+  "projectKey": "sbs-sandbox",
+  "id": "d3af7201-6a02-4b5f-9a06-9296c7566e7a",
+  "version": 1,
+  "sequenceNumber": 1,
+  "resource": {
+    "typeId": "order",
+    "id": "ccfebfa0-a74e-4270-800f-0437db559919"
+  },
+  "resourceVersion": 1,
+  "resourceUserProvidedIdentifiers": {},
+  "type": "OrderCreated",
+  "order": {
+    "type": "Order",
+    "id": "ccfebfa0-a74e-4270-800f-0437db559919",
+    "version": 1,
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2022-05-02T14:46:16.785Z",
+    "lastModifiedAt": "2022-05-02T14:46:16.785Z",
+    "lastModifiedBy": {
+      "clientId": "zHxTiEovHauIhsOhw_D0JJjO",
+      "isPlatformClient": false,
+      "customer": {
+        "typeId": "customer",
+        "id": "95040c7f-99eb-4abe-bc59-b2563366dc41"
+      }
+    },
+    "createdBy": {
+      "clientId": "zHxTiEovHauIhsOhw_D0JJjO",
+      "isPlatformClient": false,
+      "customer": {
+        "typeId": "customer",
+        "id": "95040c7f-99eb-4abe-bc59-b2563366dc41"
+      }
+    },
+    "customerId": "95040c7f-99eb-4abe-bc59-b2563366dc41",
+    "totalPrice": {
+      "type": "centPrecision",
+      "currencyCode": "EUR",
+      "centAmount": 4800,
+      "fractionDigits": 2
+    },
+    "taxedPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 4034,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 4800,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.19,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 766,
+            "fractionDigits": 2
+          },
+          "name": "19% incl."
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 766,
+        "fractionDigits": 2
+      }
+    },
+    "country": "DE",
+    "orderState": "Open",
+    "syncInfo": [],
+    "returnInfo": [],
+    "shippingInfo": {
+      "shippingMethodName": "Standard EU",
+      "price": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 300,
+        "fractionDigits": 2
+      },
+      "shippingRate": {
+        "price": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 300,
+          "fractionDigits": 2
+        },
+        "freeAbove": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 20000,
+          "fractionDigits": 2
+        },
+        "tiers": []
+      },
+      "taxRate": {
+        "name": "19% incl.",
+        "amount": 0.19,
+        "includedInPrice": true,
+        "country": "DE",
+        "id": "f7gFfqQ8",
+        "subRates": []
+      },
+      "taxCategory": {
+        "typeId": "tax-category",
+        "id": "da2aa15d-431f-45da-bdc8-d10b9c2fb847"
+      },
+      "deliveries": [],
+      "shippingMethod": {
+        "typeId": "shipping-method",
+        "id": "6824ecc3-5d73-407e-9ec0-07044452f4b0"
+      },
+      "taxedPrice": {
+        "totalNet": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 252,
+          "fractionDigits": 2
+        },
+        "totalGross": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 300,
+          "fractionDigits": 2
+        },
+        "totalTax": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 48,
+          "fractionDigits": 2
+        }
+      },
+      "shippingMethodState": "MatchesCart"
+    },
+    "taxMode": "Platform",
+    "inventoryMode": "None",
+    "taxRoundingMode": "HalfEven",
+    "taxCalculationMode": "LineItemLevel",
+    "origin": "Customer",
+    "lineItems": [
+      {
+        "id": "57511101-2ed8-427e-8c56-1c96ff520480",
+        "productId": "512f6956-54d5-4f46-abd5-ee1fd2c0d5bc",
+        "productKey": "delivery-pass",
+        "name": { "en": "Delivery Pass" },
+        "productType": {
+          "typeId": "product-type",
+          "id": "9598aa94-2994-4f43-8471-69f65f46c7e3",
+          "version": 4
+        },
+        "variant": {
+          "id": 1,
+          "sku": "delivery-pass-1",
+          "key": "delivery-pass-1",
+          "prices": [
+            {
+              "id": "dc2be67a-16fd-48fd-b221-ae7e322220cd",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "GBP",
+                "centAmount": 4200,
+                "fractionDigits": 2
+              }
+            },
+            {
+              "id": "be0f1d0c-b1b7-4b93-b2ba-e8226fe9e66f",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 4500,
+                "fractionDigits": 2
+              }
+            },
+            {
+              "id": "a0d2b9ae-d80d-4f3c-aaaa-e3ba30a7ad50",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 4500,
+                "fractionDigits": 2
+              },
+              "country": "DE"
+            }
+          ],
+          "images": [
+            {
+              "url": "http://my.custom.cdn.net/master.png",
+              "label": "Master Image",
+              "dimensions": { "w": 303, "h": 197 }
+            }
+          ],
+          "attributes": [
+            { "name": "discount-value", "value": 20 },
+            {
+              "name": "discount-start-date",
+              "value": "2022-04-12"
+            },
+            {
+              "name": "discount-end-date",
+              "value": "2022-09-01"
+            }
+          ],
+          "assets": []
+        },
+        "price": {
+          "id": "a0d2b9ae-d80d-4f3c-aaaa-e3ba30a7ad50",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 4500,
+            "fractionDigits": 2
+          },
+          "country": "DE"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "19% incl.",
+          "amount": 0.19,
+          "includedInPrice": true,
+          "country": "DE",
+          "id": "f7gFfqQ8",
+          "subRates": []
+        },
+        "addedAt": "2022-05-02T14:46:08.333Z",
+        "lastModifiedAt": "2022-05-02T14:46:08.333Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "e93d92c4-c2dc-42f7-b1e1-3e0b739b7657"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 4500,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 3782,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 4500,
+            "fractionDigits": 2
+          },
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 718,
+            "fractionDigits": 2
+          }
+        },
+        "lineItemMode": "Standard"
+      }
+    ],
+    "customLineItems": [],
+    "transactionFee": true,
+    "discountCodes": [],
+    "directDiscounts": [],
+    "cart": {
+      "typeId": "cart",
+      "id": "e2e61432-e0ba-415c-8c92-f084fde2fb17"
+    },
+    "shippingAddress": {
+      "firstName": "Full",
+      "lastName": "Name",
+      "streetName": "Street 22",
+      "postalCode": "123",
+      "city": "Town",
+      "country": "DE",
+      "phone": "+10123456789",
+      "email": "mail@provider.com"
+    },
+    "billingAddress": {
+      "firstName": "Full",
+      "lastName": "Name",
+      "streetName": "Street 22",
+      "postalCode": "123",
+      "city": "Town",
+      "country": "DE",
+      "phone": "+10123456789",
+      "email": "mail@provider.com"
+    },
+    "itemShippingAddresses": [],
+    "refusedGifts": []
+  },
+  "createdAt": "2022-05-02T14:46:16.795Z",
+  "lastModifiedAt": "2022-05-02T14:46:16.795Z"
+}

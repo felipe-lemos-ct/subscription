@@ -1,0 +1,455 @@
+{
+  "notificationType": "Message",
+  "projectKey": "harm-sandbox-3",
+  "id": "789755bc-1cfc-4e72-a8c7-19af2295c429",
+  "version": 1,
+  "sequenceNumber": 1,
+  "resource": {
+    "typeId": "order",
+    "id": "f78851df-5d6c-47ef-9b34-ccc48bf5998e"
+  },
+  "resourceVersion": 1,
+  "resourceUserProvidedIdentifiers": {},
+  "type": "OrderCreated",
+  "order": {
+    "type": "Order",
+    "id": "f78851df-5d6c-47ef-9b34-ccc48bf5998e",
+    "version": 1,
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2022-05-02T07:23:31.647Z",
+    "lastModifiedAt": "2022-05-02T07:23:31.647Z",
+    "lastModifiedBy": {
+      "clientId": "g2bbQ1Ndz8NeAM5-MrqL4Dmr",
+      "isPlatformClient": false,
+      "customer": {
+        "typeId": "customer",
+        "id": "d9bc198c-2ffa-4795-9276-ddf0d9d3b523"
+      }
+    },
+    "createdBy": {
+      "clientId": "g2bbQ1Ndz8NeAM5-MrqL4Dmr",
+      "isPlatformClient": false,
+      "customer": {
+        "typeId": "customer",
+        "id": "d9bc198c-2ffa-4795-9276-ddf0d9d3b523"
+      }
+    },
+    "customerId": "d9bc198c-2ffa-4795-9276-ddf0d9d3b523",
+    "totalPrice": {
+      "type": "centPrecision",
+      "currencyCode": "EUR",
+      "centAmount": 21250,
+      "fractionDigits": 2
+    },
+    "taxedPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 18319,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 21250,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.16,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 2931,
+            "fractionDigits": 2
+          },
+          "name": "DE-Standard"
+        }
+      ],
+      "totalTax": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 2931,
+        "fractionDigits": 2
+      }
+    },
+    "country": "DE",
+    "orderState": "Open",
+    "syncInfo": [],
+    "returnInfo": [],
+    "shippingInfo": {
+      "shippingMethodName": "Standard",
+      "price": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 0,
+        "fractionDigits": 2
+      },
+      "shippingRate": {
+        "price": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 300,
+          "fractionDigits": 2
+        },
+        "freeAbove": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 20000,
+          "fractionDigits": 2
+        },
+        "tiers": []
+      },
+      "taxRate": {
+        "name": "DE-Standard",
+        "amount": 0.16,
+        "includedInPrice": true,
+        "country": "DE",
+        "id": "c4L04il0",
+        "subRates": []
+      },
+      "taxCategory": {
+        "typeId": "tax-category",
+        "id": "1873511f-0aab-485d-ab69-06ac7ba9e92d"
+      },
+      "deliveries": [],
+      "shippingMethod": {
+        "typeId": "shipping-method",
+        "id": "0c5b6594-6f0b-4e1b-9a0f-037745000d59"
+      },
+      "taxedPrice": {
+        "totalNet": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 0,
+          "fractionDigits": 2
+        },
+        "totalGross": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 0,
+          "fractionDigits": 2
+        },
+        "totalTax": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 0,
+          "fractionDigits": 2
+        }
+      },
+      "shippingMethodState": "MatchesCart"
+    },
+    "taxMode": "Platform",
+    "inventoryMode": "None",
+    "taxRoundingMode": "HalfEven",
+    "taxCalculationMode": "LineItemLevel",
+    "origin": "Customer",
+    "lineItems": [
+      {
+        "id": "eff4f250-7939-46c2-9969-69d8d2e7d5da",
+        "productId": "6c7b5147-b88c-4ebb-bc9d-497edb82dddc",
+        "name": {
+          "en": "Sweater Pinko white",
+          "en-US": "Sweater Pinko white",
+          "de": "Sweater Pinko white"
+        },
+        "productType": {
+          "typeId": "product-type",
+          "id": "8c9be286-ff97-4ed0-9587-2bf73e77be3a",
+          "version": 1
+        },
+        "variant": {
+          "id": 1,
+          "sku": "CL00019",
+          "key": "CL00019",
+          "prices": [
+            {
+              "id": "1c198f16-32a3-4de0-adec-14518cc642e7",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 25500,
+                "fractionDigits": 2
+              },
+              "country": "US"
+            },
+            {
+              "id": "3ff52556-13e2-4665-89bc-969e0f2fb1f9",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 24990,
+                "fractionDigits": 2
+              },
+              "country": "US",
+              "customerGroup": {
+                "typeId": "customer-group",
+                "id": "05a08956-9894-45c5-aa14-8ebc5ef446e8"
+              }
+            },
+            {
+              "id": "9fa149b6-828e-4345-99c9-b84091bb7314",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 24480,
+                "fractionDigits": 2
+              },
+              "country": "US",
+              "customerGroup": {
+                "typeId": "customer-group",
+                "id": "24610ca2-f9b6-493d-9e62-33028409f663"
+              }
+            },
+            {
+              "id": "564b48b2-3aa2-426f-a473-82fbd0f9c83a",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 23970,
+                "fractionDigits": 2
+              },
+              "country": "US",
+              "customerGroup": {
+                "typeId": "customer-group",
+                "id": "68bbc780-8bca-4542-847b-65b8c1892dfc"
+              }
+            },
+            {
+              "id": "aac0a912-3cf3-4248-b0ff-b5ba72d4a5bd",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 21250,
+                "fractionDigits": 2
+              },
+              "country": "DE"
+            },
+            {
+              "id": "c4bf1385-7ff1-498a-8ffc-7f2fcc4eadc5",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 20825,
+                "fractionDigits": 2
+              },
+              "country": "DE",
+              "customerGroup": {
+                "typeId": "customer-group",
+                "id": "05a08956-9894-45c5-aa14-8ebc5ef446e8"
+              }
+            },
+            {
+              "id": "ebb6f632-79ea-4d11-9e93-520977039c80",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 20400,
+                "fractionDigits": 2
+              },
+              "country": "DE",
+              "customerGroup": {
+                "typeId": "customer-group",
+                "id": "24610ca2-f9b6-493d-9e62-33028409f663"
+              }
+            },
+            {
+              "id": "298eb4c3-15d9-4dbf-ac71-75fc5e62f5b9",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 19975,
+                "fractionDigits": 2
+              },
+              "country": "DE",
+              "customerGroup": {
+                "typeId": "customer-group",
+                "id": "68bbc780-8bca-4542-847b-65b8c1892dfc"
+              }
+            },
+            {
+              "id": "1fb0c1c1-1ac0-4434-8870-3677a9119f2f",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 24225,
+                "fractionDigits": 2
+              },
+              "country": "US",
+              "channel": {
+                "typeId": "channel",
+                "id": "611e21f1-ca98-4716-bb14-a27145a52022"
+              }
+            },
+            {
+              "id": "72a815e1-aac8-4357-972a-2818ebc4e97e",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 20187,
+                "fractionDigits": 2
+              },
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "7e114d8f-c3da-40f5-9707-6cf89ed965ed"
+              }
+            },
+            {
+              "id": "cac0f9a1-bbfd-4ff3-8a71-72a3a3af5bde",
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "EUR",
+                "centAmount": 20187,
+                "fractionDigits": 2
+              },
+              "country": "DE",
+              "channel": {
+                "typeId": "channel",
+                "id": "6c145e00-3fdf-4e85-bffc-76108229bff5"
+              }
+            }
+          ],
+          "images": [
+            {
+              "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/072601_1_large.jpg",
+              "dimensions": { "w": 28, "h": 37 }
+            }
+          ],
+          "attributes": [
+            { "name": "size", "value": "S" },
+            {
+              "name": "color",
+              "value": {
+                "key": "blue",
+                "label": { "en": "blue" }
+              }
+            }
+          ],
+          "assets": [],
+          "availability": {
+            "isOnStock": true,
+            "restockableInDays": 15,
+            "availableQuantity": 196,
+            "version": 5,
+            "id": "9683dac0-b374-447d-8b38-18174c039af8",
+            "channels": {
+              "611e21f1-ca98-4716-bb14-a27145a52022": {
+                "isOnStock": true,
+                "restockableInDays": 15,
+                "availableQuantity": 200,
+                "version": 1,
+                "id": "308e80e5-9612-4927-9f57-a31447758104"
+              },
+              "6c145e00-3fdf-4e85-bffc-76108229bff5": {
+                "isOnStock": true,
+                "restockableInDays": 15,
+                "availableQuantity": 200,
+                "version": 1,
+                "id": "45845c70-f667-4e4d-b4ab-c7937a249b0d"
+              },
+              "7e114d8f-c3da-40f5-9707-6cf89ed965ed": {
+                "isOnStock": true,
+                "restockableInDays": 15,
+                "availableQuantity": 200,
+                "version": 1,
+                "id": "d62a5191-f7e7-402d-a275-78d054ccee2e"
+              }
+            }
+          }
+        },
+        "price": {
+          "id": "aac0a912-3cf3-4248-b0ff-b5ba72d4a5bd",
+          "value": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 21250,
+            "fractionDigits": 2
+          },
+          "country": "DE"
+        },
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxRate": {
+          "name": "DE-Standard",
+          "amount": 0.16,
+          "includedInPrice": true,
+          "country": "DE",
+          "id": "c4L04il0",
+          "subRates": []
+        },
+        "addedAt": "2022-05-02T07:23:22.165Z",
+        "lastModifiedAt": "2022-05-02T07:23:22.165Z",
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "71c43c56-14a1-4925-80d6-ed6b1d4ea3ef"
+            }
+          }
+        ],
+        "priceMode": "Platform",
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 21250,
+          "fractionDigits": 2
+        },
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 18319,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 21250,
+            "fractionDigits": 2
+          },
+          "totalTax": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 2931,
+            "fractionDigits": 2
+          }
+        },
+        "lineItemMode": "Standard"
+      }
+    ],
+    "customLineItems": [],
+    "transactionFee": true,
+    "discountCodes": [],
+    "directDiscounts": [],
+    "cart": {
+      "typeId": "cart",
+      "id": "d1c430b3-5d76-4288-ba4d-07c5d0b062cd"
+    },
+    "shippingAddress": {
+      "firstName": "Full",
+      "lastName": "Name",
+      "streetName": "Street 22",
+      "postalCode": "123",
+      "city": "Town",
+      "country": "DE",
+      "phone": "+10123456789",
+      "email": "mail@provider.com"
+    },
+    "billingAddress": {
+      "firstName": "Full",
+      "lastName": "Name",
+      "streetName": "Street 22",
+      "postalCode": "123",
+      "city": "Town",
+      "country": "DE",
+      "phone": "+10123456789",
+      "email": "mail@provider.com"
+    },
+    "itemShippingAddresses": [],
+    "refusedGifts": []
+  },
+  "createdAt": "2022-05-02T07:23:31.656Z",
+  "lastModifiedAt": "2022-05-02T07:23:31.656Z"
+}
